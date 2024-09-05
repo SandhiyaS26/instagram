@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .insta{
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: center;
+            gap: 0px;
+            margin-top: 4%;
+            margin-left: -260px;
+        }
+        #img{
+            display: block;
+            height:500px;
+            margin-right:-210px;
+        }
+        .bottom{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border:1px rgb(219, 211, 211) solid;
+            height: 340px;
+            width:280px;
+            padding-left: 20px;
+            padding-right: 15px;
+            border-radius:5px;
+        }
+        .bottom1{
+            border:1px rgb(219, 211, 211) solid;
+            height:55px;
+            width:250px;
+            padding-left:64px ;
+            padding-top: 10px;
+            border-radius: 5px;
+            margin-top: 1px;
+        }
+        input{
+            padding:9px 0px 7px 8px;
+            background-color: #FAFAFA;
+            height:15px;
+            width:258px;
+            border-radius: 3px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #pass{
+            margin-top:5px ;
+            border:1px rgb(219, 211, 211) solid;
+        }
+        #log{
+            height:32px;
+            width:269px;
+            border-radius: 10px;
+            border: none;
+            background-color: #0095F6;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #logo{
+            margin:0px 8px 0px 8px;
+        }
+        #face{
+            text-decoration: none;
+            padding-left: 50px;
+            color:#385185;
+            font-size:14px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+        }
+        #forg{
+            text-decoration: none;
+            color:#00376B;
+            font-size:12px;
+            padding-left: 102px;
+            margin-top: 2%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #or{
+            color:rgb(219, 211, 211);
+            font-size:13px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #acc{
+            color: #252424;
+            font-size: 14px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #sign{
+            color:#0095F6;
+            font-size: 15px;
+            text-decoration: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #in{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #bo{
+            color:#737373;
+        }
+        .bot{
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="insta">
+        <div class="top">
+            <img src="./IMAGE.gif" id="img">
+        </div>
+        <div class="bot">
+            <div class="bottom">
+                <h1 id="in">Instagram</h1>
+                <form>
+                    <input type="text" placeholder="Phone number,username,or email" id="pass">
+                    <br>
+                    <input type="password" placeholder="Password" id="pass">
+                    <br>
+                    <br>
+                    <input type="button" value="Log in" id="log">
+                    <br>
+                    <p id="or">_______________________ <b id="bo">OR</b> _____________________</p>
+                    <a href="#" id="face"><i class="fa-brands fa-square-facebook" id="logo"></i>Log in with Facebook</a>
+                    <br>
+                    <br>
+                    <a href="#" id="forg">Forget password?</a>
+                </form>
+            </div>
+            <br>
+            <div class="bottom1">
+                <p id="acc">Didn't have an account? <a href="#" id="sign">Sign up</a></p>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
